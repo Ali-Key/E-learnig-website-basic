@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!-- Fontawesome CSS -->
+     <link rel="stylesheet" href="dist/fontawesome/css/all.css" >
+     <!-- BootstrapCSS -->
+     <link rel="stylesheet" href="dist/css/bootstrap.min.css" >
+     <!-- Stylesheet CSS -->
+     <link rel="stylesheet" href="sytel.css" >
+
+    <title>JUST</title>
+   
+</head>
+<body>
+
+
+  <section class="header">
+    <nav>
+      <a href="index.html"><img src="dist/img/logo.png" alt="waa sawir "></a>
+      <div class="nav-link" id="navLinks">
+        <i class="fas fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="courses.html" >COURSES</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+          <li><a href="about.html">ABOUT </a></li>
+          
+        </ul>
+
+      </div>
+       <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <div class="text-box">
+      <h1>
+         Jamhuriya University In Somalia
+      </h1>
+    
+      <p>
+        Jamhuriya University of Science & Technology (JUST) is a private, higher  educational <br> institution providing quality education to the public.
+      </p>
+      <a href=" " class="hero-btn">More about the university</a>
+    </div>
+
+  </section>
+
+     <!----------Course------------>
+     <section  class="course">
+       <h1> COURSES</h1>
+  
+
+    <div class="row">
+        <div class="course-col">
+          <h3>Computer Application</h3>
+          <p>19000+students</p>
+
+        </div>
+        <div class="course-col">
+          <h3>Business Adimistoration</h3>
+            <p>1000+students</p>
+
+       </div>
+       <div class="course-col">
+        <h3>Civil Engineering</h3>
+        <p>1900+students</p>
+
+     </div>
+    </div>
+
+     </section>
+
+
+
+
+     <!-- -----------campus -------------->
+
+     <section class="campus">
+       <h1>OUR GLOBAL CAMPUS</h1>
+       <p </p>
+       <div class="row">
+        <div class="campus-col">
+          <img src="dist/img/campus1.jpg" alt="image campus one">
+          <div class="layer">
+            <h3>Campus one</h3>
+          </div>
+           
+        </div>
+        <div class="campus-col">
+          <img src="dist/img/campus2.jpg" alt="image campus one">
+          <div class="layer">
+            <h3>Campus tow</h3>
+          </div>
+          
+       </div>
+       <div class="campus-col">
+        <img src="dist/img/campus3.jpg" alt="image campus one">
+        <div class="layer">
+          <h3>Campus three</h3>
+        </div>
+       
+     
+     </div>
+    </div>
+
+
+     </section>
+
+     <!-- -----------facilities -------------->
+     <!-- <section class="facilities">
+       <h1>Our Facilities</h1>
+       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+       <div class="row">
+         <div class="facilities-col">
+           <img src="dist/img/library.png" alt="">
+           <h3>World Class Libarary</h3>
+           <p>  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas magni possimus aperiam est, ex placeat quaerat consequuntur natus, architecto,</p>
+         </div>
+         <div class="facilities-col">
+          <img src="dist/img/basketball.png" alt="">
+          <h3>World Class Libarary</h3>
+          <p>  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas magni possimus aperiam est, ex placeat quaerat consequuntur natus, architecto,</p>
+         
+        </div>
+        <div class="facilities-col">
+          <img src="dist/img/cafeteria.png" alt="">
+          <h3>World Class Libarary</h3>
+        <p>  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas magni possimus aperiam est, ex placeat quaerat consequuntur natus, architecto,</p>
+
+       </div>
+
+     </section> -->
+
+
+     <section class="footer">
+      <h4> ABOUT US</h4>
+      <p>JUST - Jamhuriya University of Science & Technology is the Home of Quality Education  in Somalia, providing almost ten <br> undergraduate  specializations  in the fields of Medicine, Economics & Management, Engineering and Computer Science.<br> 
+        The university set a record of student enrollment   in the first and the second semesters of <br>  its existence for all local local universities, enrolling more than 500 students.</p>
+          <div class="icons">
+
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-youtube"></i>
+          </div> 
+
+</section>
+
+
+  <!----------Javascript for toggle manu------------>
+
+    <script>
+
+      
+      var navLinks= document.getElementById("navLinks");
+      function showMenu(){
+        navLinks.style.right = "0";
+      }
+      
+       function hideMenu(){
+        navLinks.style.right = "-200px";
+
+      }
+
+
+
+    </script>
+  
+</body>
+</html>
